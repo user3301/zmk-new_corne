@@ -82,6 +82,11 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <23 24>;
         };
+
+        l_ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
@@ -90,10 +95,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE          &kp Q  &kp W  &kp E     &kp R  &kp T                                   &kp UP                &kp Y                  &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D     &kp F  &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C     &kp V  &kp B            &kp SPACE              &kp DOWN              &kp N                  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp TILDE
-                                  &kp LGUI  &mo 1  &mt LCTRL SPACE                                               &mt RIGHT_SHIFT ENTER  &mo 2  &kp RALT
+&kp ESCAPE          &kp Q  &kp W  &kp E     &kp R  &kp T                                    &kp UP                &kp Y                  &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D     &kp F  &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C     &kp V  &kp B            &kp K_MUTE              &kp DOWN              &kp N                  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp TILDE
+                                  &kp LGUI  &mo 1  &mt LCTRL SPACE                                                &mt RIGHT_SHIFT ENTER  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
