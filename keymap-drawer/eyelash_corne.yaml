@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - MUTE
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -209,3 +209,5 @@ combos:
   k: '{'
 - p: [23, 24]
   k: '}'
+- p: [17, 18]
+  k: $$mdi:apple-keyboard-control$$
