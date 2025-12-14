@@ -84,7 +84,7 @@
         };
 
         l_ctrl {
-            bindings = <&kp LCTRL>;
+            bindings = <&kp RCTRL>;
             key-positions = <17 18>;
         };
     };
